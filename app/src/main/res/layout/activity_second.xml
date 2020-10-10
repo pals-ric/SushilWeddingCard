@@ -13,16 +13,16 @@
             android:id="@+id/tab"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/status_bar"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:tabGravity="fill"
-            app:tabIndicatorColor="@color/card_bg2"
+            app:tabIndicatorColor="@color/white"
             app:tabMode="fixed"
             app:tabTextAppearance="@style/tab_text"
-            app:tabSelectedTextColor="@color/card_bg2"
-            app:tabTextColor="@color/card_bg2">
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/white">
 
         </com.google.android.material.tabs.TabLayout>
 

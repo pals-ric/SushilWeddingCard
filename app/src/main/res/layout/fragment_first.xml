@@ -8,6 +8,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
     tools:context=".FirstFragment">
     <TextView
         android:id="@+id/tv1"
@@ -16,7 +17,7 @@
         android:text="@string/brother"
         android:visibility="visible"
         android:textSize="20sp"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:fontFamily="@font/gilroy_medium"
         android:textColor="@color/yellow"
@@ -31,7 +32,7 @@
         android:visibility="visible"
         android:textSize="14sp"
         android:gravity="center"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:fontFamily="@font/gilroy_medium"
         android:textColor="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +46,7 @@
         android:text="@string/wed"
         android:visibility="visible"
         android:textSize="20sp"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:fontFamily="@font/gilroy_bold"
         android:textColor="@color/white"
@@ -60,7 +61,7 @@
         android:text="@string/parents"
         android:visibility="visible"
         android:textSize="16sp"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:fontFamily="@font/gilroy_medium"
         android:textColor="@color/yellow"
         android:gravity="center"
@@ -75,7 +76,7 @@
         android:text="@string/dinner"
         android:visibility="visible"
         android:textSize="16sp"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:gravity="center"
         android:fontFamily="@font/gilroy_medium"
         android:textColor="@color/yellow"
@@ -114,5 +115,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv6" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/special_compliments"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
