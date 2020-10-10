@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mandap_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_mandap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/haldi"
+        android:visibility="visible"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@id/mandap_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/mandap_img"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mehdi_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/img_sangeet"
+        app:layout_constraintRight_toLeftOf="@id/tv2"
+        app:layout_constraintTop_toBottomOf="@id/mandap_img">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mehdi"
+        android:visibility="visible"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mandap_img" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/wedding_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_wed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mehdi_img">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wedding_init"
+        android:visibility="visible"
+        android:textSize="22sp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/gilroy_bold"
+        android:textColor="@color/yellow"
+        app:layout_constraintStart_toEndOf="@id/wedding_img"
+        app:layout_constraintTop_toTopOf="@id/wedding_img" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/vidai_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/img_vidai"
+        app:layout_constraintRight_toLeftOf="@id/tv4"
+        app:layout_constraintTop_toBottomOf="@id/wedding_img">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vidai"
+        android:visibility="visible"
+        android:textSize="22sp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wedding_img" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/special_thanks_from"
+        android:visibility="visible"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:fontFamily="@font/gilroy_bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv4"
+         />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/kids"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

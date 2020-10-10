@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Drop Shadow Stack -->
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <padding-->
+<!--                android:bottom="1dp"-->
+<!--                android:left="1dp"-->
+<!--                android:right="1dp"-->
+<!--                android:top="1dp" />-->
+
+<!--            <solid android:color="#1A00FFBE" />-->
+
+<!--            <corners android:radius="6dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <padding-->
+<!--                android:bottom="1dp"-->
+<!--                android:left="1dp"-->
+<!--                android:right="1dp"-->
+<!--                android:top="1dp" />-->
+
+<!--            <solid android:color="#4D00FFBE" />-->
+
+<!--            <corners android:radius="6dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <padding-->
+<!--                android:bottom="1dp"-->
+<!--                android:left="1dp"-->
+<!--                android:right="1dp"-->
+<!--                android:top="1dp" />-->
+
+<!--            <solid android:color="#00F8BB" />-->
+
+<!--            <corners android:radius="6dp" />-->
+<!--        </shape>-->
+<!--    </item>-->
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+
+            <!--<gradient
+                android:centerColor="#8000F8BB"
+                android:endColor="#015674"
+                android:startColor="#015674" />-->
+            <solid android:color="@color/yellow" />
+            <corners android:radius="60dp" />
+        </shape>
+    </item>
+
+
+</layer-list>

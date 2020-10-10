@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TheWeddingCard</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="haldi">Mandap &amp; Haldi\n9th Dec, 2020</string>
+    <string name="mehdi">Mayna &amp; Sangeet\n10th Dec, 2020</string>
+    <string name="wedding_init">Wedding\n11th Dec, 2020</string>
+    <string name="vidai">Vidai\n12th Dec, 2020</string>
+    <string name="kids">Somu &amp; Sakshi Mishra\nTanu &amp; Gungun Rawat\nDolly &amp; Rolly Tiwari\nShanu Mishra \nSatish Mishra</string>
+    <string name="special_thanks_from">Special Invitation From
+</string>
+
+    <string name="brother">Mr. Devesh Dutt &amp; Mrs. Rolee Richhariya &amp; \n Mr. Sarvesh Dutt Richhariya
+
+</string>
+    <string name="line">SOLICIT YOUR GRACIOUS PRESENCE &amp; BLESSINGS ON THE AUSPICIOUS OCCASION OF THE MARRIAGE CEREMONY OF OUR BELOVED SISTER
+
+</string>
+    <string name="wed">PRAGYA with SUSHIL
+</string>
+
+    <string name="parents">D/o. MRS. KUSUM AND LATE MR. BHANU PRATAP RICHHARIYA \n\nAT
+
+    </string>
+    <string name="fam_compliments">Mrs. Manisha &amp; Mr. Mayank Chaturvedi\nKanishka Chaturvedi\nPallavi Richhariya\nDivyanshi Richhariya\nVarnit Richhariya</string>
+    <string name="best_compliments">WITH BEST COMPLIMENTS FROM:</string>
+    <string name="dinner">NAGAR BHAWAN, BARUASAGAR (21 km from JHANSI) (Google Map Link)\n\nON\n FRIDAY 11TH DEC, 2020\n6:00 PM onwards</string>
+
+    <string name="mantra">Vakratunda Mahakaya Surya Koti Samaprabha |
+Nirvighnam Kuru Me Dev Sarv-Kaaryeshu Sarvadaa ||</string>
+    <string name="wedding">Invitation</string>
+    <string name="boy">Sushil</string>
+    <string name="girl">Pragya</string>
+    <string name="weds">Weds</string>
+    <string name="lets_begin">Pateriya Family Welcomes You!\nLet us all be the part of\nWEDDING CELEBERATION!!\n ON\n11th Dec, 2020</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
